@@ -20,7 +20,7 @@ class App extends Component {
   handleSubmit = e => {
     e.preventDefault()
     this.ShortLinkBitly(this.state.givenURL)
-    // this.setState({ result: shortUrl})
+    this.setState({ givenURL: ""})
   }
   
   ShortLinkBitly(longUrl) {
@@ -50,10 +50,12 @@ class App extends Component {
 
   render() {
     return (
-      <div>
+      <div className='grey'>
         <HomePage />
-        <Form ShortLinkBitly={this.ShortLinkBitly} updateState={this.updateState} handleSubmit={this.handleSubmit}/>
-        {this.state.result ? <ShorterURL result={this.state.result}/> : null}
+        <div className="main ">
+          <Form ShortLinkBitly={this.ShortLinkBitly} updateState={this.updateState} handleSubmit={this.handleSubmit}/>
+          {this.state.result ? <ShorterURL result={this.state.result}/> : null}
+        </div>
       </div>
     );
   }

@@ -12,11 +12,11 @@ class ShorterURL extends Component {
 
     render() {
         return (
-            <div>
-                <p>Your new shorter URL is:</p>
+            <div className="borderTop">
+                <p>Your new, shorter URL is:</p>
                 <p>{this.props.result}</p>
                 <CopyToClipboard onCopy={this.onCopy} text={this.props.result}>
-                    <button>Copy to clipboard</button>
+                    <button className="btn">Copy to clipboard</button>
                 </CopyToClipboard>
                 {this.state.copied 
                  ? <p>{this.props.result} has been copied to clipboard!</p>
