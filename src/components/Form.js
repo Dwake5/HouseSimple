@@ -2,13 +2,6 @@ import React, { Component } from 'react';
 
 class form extends Component {
 
-    // This is a handy way of updating forms, given that state is named the same as
-    // the name of an input field it will update them all at once. This saves you having
-    // to write this function For each field, even though in this case these is only one.
-    updateState = e => {
-        this.setState({ [e.target.name]: e.target.value });
-    }
-
     render() {
         return (
             <div>

@@ -26,10 +26,10 @@ Technologies used to implement the service should include but are not limited to
     <li>'git init' to initialize git</li>
     <li>Fill in readme, documenting as I go</li>
     <li>Update logo at the top of website, change 'react app' to actual name</li>
-    <li>Obtain personal access token: 'e58782db40b0be563177212aa3ab3505e0fc2b1f'</li>
-    <li>install node-bitly package</li>
-    <li></li>
-    <li></li>
+    <li>Obtain personal API key: 'R_dde325c90a014f31a0c98e0cc9cec107'</li>
+    <li>Implement main function with a fetch request to the address using api key and my bitly username</li>
+    <li>After app is tested and working, start on css</li>
+    <li>Background using colors from house simple website: rgb(244, 54, 76)</li>
     <li></li>
     <li></li>
     <li></li>
