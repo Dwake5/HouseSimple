@@ -50,7 +50,7 @@ class App extends Component {
 
   render() {
     return (
-      <div className='grey'>
+      <div>
         <HomePage />
         <div className="main ">
           <Form ShortLinkBitly={this.ShortLinkBitly} updateState={this.updateState} handleSubmit={this.handleSubmit}/>

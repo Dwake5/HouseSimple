@@ -4,7 +4,7 @@ class form extends Component {
 
     render() {
         return (
-            <div className="borderTop spaceELs">
+            <div className="borderTop">
                 <form onSubmit={this.props.handleSubmit}>
                     <label>
                         Paste Long URL:
