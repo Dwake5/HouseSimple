@@ -1,4 +1,4 @@
-<h1>Bit Shortener for housesimple</h1> 
+<h1>URL Shortener for housesimple</h1> 
 
 <h3>By Danny Wakeling</h3>
 
